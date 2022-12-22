@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'mongo' }
+        docker { image 'mongo:5.0.2' }
     }
     stages {
         stage('Git install') {
